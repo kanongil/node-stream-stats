@@ -1,0 +1,22 @@
+{
+  "name": "stream-stats",
+  "version": "0.0.0",
+  "description": "Measure streams and collect running statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kanongil/node-stream-stats.git"
+  },
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "optionalDependencies": {
+    "readable-stream": "~0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  }
+}
