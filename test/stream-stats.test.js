@@ -1,5 +1,11 @@
-var assert = require('assert'),
-    Readable = require('stream').Readable;
+var assert = require('assert');
+
+try {
+  var Readable = require('stream').Readable;
+  assert(Readable);
+} catch (e) {
+  var Readable = require('readable-stream');
+}
 
 var StreamStats = require('../lib/stream-stats');
 
